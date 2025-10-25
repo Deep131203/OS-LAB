@@ -1,0 +1,346 @@
+Name:- Swapnadeep Mishra
+Roll No. - 002211001115
+Group- A3
+Assignment - 1A
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q1. < who:-It displays the information about all the users who have logged into the system
+currently>
+< who >
+<[be22115@localhost Assignment1]$ who
+(unknown) :0           2023-10-30 11:07 (:0)
+root     pts/0        2024-07-31 11:42 (172.16.5.159)
+be22L08  pts/1        2024-07-31 12:00 (172.16.4.216)
+be22115  pts/2        2024-07-31 12:08 (172.16.4.211)
+be22136  pts/3        2024-07-31 12:09 (172.16.4.214)
+be22114  pts/4        2024-07-31 12:10 (172.16.4.202)
+be22128  pts/5        2024-07-31 12:13 (172.16.4.215)
+be22129  pts/6        2024-07-31 12:15 (172.16.4.213)
+be22110  pts/7        2024-07-31 12:17 (172.16.4.209)
+be22L05  pts/8        2024-07-31 12:19 (172.16.5.9)
+be22127  pts/9        2024-07-31 12:20 (172.16.4.210)
+>
+
+Q2. <whoami:- It displays Current username, Terminal number, date and time at which user
+logged into the system>
+< whoami>
+<be22115>
+
+Q3. <pwd:- It displays current working directory>
+<pwd>
+</home/usr/student/ug/yr22/be22115/OSLAB/Assignment1>
+
+Q4. < date:- It displays system date and time >
+<date>
+< Wed Jul 31 12:23:46 IST 2024>
+
+Q5. <ls - It lists the files and directories stored in the current directory. To list the files in a
+directory use the following syntax: $ls dirname>
+<ls>
+<1.c    assignment1.c    assignment2,6.c  assignment3,3.c  assignment4,4.c   assignment5,4.c  b.c    e.c          oops           skel
+2.c    assignment2,1.c  assignment2,7.c  assignment3,4.c  assignment4.c     assignment5,5.c  cnlab  f            OOSLAB         sum
+3.c    assignment2,2.c  assignment2,8.c  assignment3,6.c  assignment5,10.c  assignment5,7.c  d      f.c          OSLAB
+a      assignment2,3.c  assignment2.c    assignment3.c    assignment5,1.c   assignment5.c    d.c    f.h          Pattern.class
+a.c    assignment2,4.c  assignment3,1.c  assignment4,1.c  assignment5,2.c   assignment6.c    dsa    labq2.class  question1.c
+a.out  assignment2,5.c  assignment3,2.c  assignment4,3.c  assignment5,3.c   assignment.c     e      labq2.java   SELAB>
+
+Q6. <mkdir – It is used to create directories by using the command: $mkdir dirname>
+<mkdir CCLAB>
+<1.c    assignment1.c    assignment2,6.c  assignment3,3.c  assignment4,4.c   assignment5,4.c  b.c    e            labq2.java     SELAB
+2.c    assignment2,1.c  assignment2,7.c  assignment3,4.c  assignment4.c     assignment5,5.c  CCLAB  e.c          oops           skel
+3.c    assignment2,2.c  assignment2,8.c  assignment3,6.c  assignment5,10.c  assignment5,7.c  cnlab  f            OOSLAB         sum
+a      assignment2,3.c  assignment2.c    assignment3.c    assignment5,1.c   assignment5.c    d      f.c          OSLAB
+a.c    assignment2,4.c  assignment3,1.c  assignment4,1.c  assignment5,2.c   assignment6.c    d.c    f.h          Pattern.class
+a.out  assignment2,5.c  assignment3,2.c  assignment4,3.c  assignment5,3.c   assignment.c     dsa    labq2.class  question1.c
+>
+
+Q7. < clear- It clears the screen>
+<clear>
+<[be22115@localhost ~]$ clear>
+
+Q8. <cd - It is used to change the current working directory to any other directory specified>
+<cd OSLAB>
+<[be22115@localhost OSLAB]$ >
+
+Q9. < cd.. -This command is used to come out from the current working directory.>
+<cd ..>
+<[be22115@localhost ~]$ >
+
+Q10. <rmdir - Directories can be deleted using the rmdir command - $rmdir dirname>
+< rmdir CCLAB>
+<1.c    assignment1.c    assignment2,6.c  assignment3,3.c  assignment4,4.c   assignment5,4.c  b.c    e.c          oops           skel
+2.c    assignment2,1.c  assignment2,7.c  assignment3,4.c  assignment4.c     assignment5,5.c  cnlab  f            OOSLAB         sum
+3.c    assignment2,2.c  assignment2,8.c  assignment3,6.c  assignment5,10.c  assignment5,7.c  d      f.c          OSLAB
+a      assignment2,3.c  assignment2.c    assignment3.c    assignment5,1.c   assignment5.c    d.c    f.h          Pattern.class
+a.c    assignment2,4.c  assignment3,1.c  assignment4,1.c  assignment5,2.c   assignment6.c    dsa    labq2.class  question1.c
+a.out  assignment2,5.c  assignment3,2.c  assignment4,3.c  assignment5,3.c   assignment.c     e      labq2.java   SELAB
+>
+
+Q11. <cat – It displays the contents of a file - $cat filename>
+< cat hello.c>
+<#include<stdio.h>
+int main(){
+printf("hello world");
+return 0;
+}
+>
+
+Q12. < cp - It is used to copy a file - $ cp source_file destination_file>
+<cp hello.c new.c>
+<1.c    assignment1.c    assignment2,6.c  assignment3,3.c  assignment4,4.c   assignment5,4.c  b.c    e.c          labq2.java     question1.c
+2.c    assignment2,1.c  assignment2,7.c  assignment3,4.c  assignment4.c     assignment5,5.c  cnlab  f            new.c          SELAB
+3.c    assignment2,2.c  assignment2,8.c  assignment3,6.c  assignment5,10.c  assignment5,7.c  d      f.c          oops           skel
+a      assignment2,3.c  assignment2.c    assignment3.c    assignment5,1.c   assignment5.c    d.c    f.h          OOSLAB         sum
+a.c    assignment2,4.c  assignment3,1.c  assignment4,1.c  assignment5,2.c   assignment6.c    dsa    hello.c      OSLAB
+a.out  assignment2,5.c  assignment3,2.c  assignment4,3.c  assignment5,3.c   assignment.c     e      labq2.class  Pattern.class
+>
+
+Q13. < mv- It is used to change the name of a file - $ mv old_file new_file>
+< mv hello.c new.c>
+<1.c    assignment1.c    assignment2,6.c  assignment3,3.c  assignment4,4.c   assignment5,4.c  b.c    e            labq2.java     question1.c
+2.c    assignment2,1.c  assignment2,7.c  assignment3,4.c  assignment4.c     assignment5,5.c  cnlab  e.c          new.c          SELAB
+3.c    assignment2,2.c  assignment2,8.c  assignment3,6.c  assignment5,10.c  assignment5,7.c  cpnm   f            oops           skel
+a      assignment2,3.c  assignment2.c    assignment3.c    assignment5,1.c   assignment5.c    d      f.c          OOSLAB         sum
+a.c    assignment2,4.c  assignment3,1.c  assignment4,1.c  assignment5,2.c   assignment6.c    d.c    f.h          OSLAB
+a.out  assignment2,5.c  assignment3,2.c  assignment4,3.c  assignment5,3.c   assignment.c     dsa    labq2.class  Pattern.class>
+
+Q14. <rm – It is used to delete an existing file - $ rm filename>
+< rm new.c >
+<1.c    assignment1.c    assignment2,6.c  assignment3,3.c  assignment4,4.c   assignment5,4.c  b.c    e            labq2.java     SELAB
+2.c    assignment2,1.c  assignment2,7.c  assignment3,4.c  assignment4.c     assignment5,5.c  cnlab  e.c          oops           skel
+3.c    assignment2,2.c  assignment2,8.c  assignment3,6.c  assignment5,10.c  assignment5,7.c  cpnm   f            OOSLAB         sum
+a      assignment2,3.c  assignment2.c    assignment3.c    assignment5,1.c   assignment5.c    d      f.c          OSLAB
+a.c    assignment2,4.c  assignment3,1.c  assignment4,1.c  assignment5,2.c   assignment6.c    d.c    f.h          Pattern.class
+a.out  assignment2,5.c  assignment3,2.c  assignment4,3.c  assignment5,3.c   assignment.c     dsa    labq2.class  question1.c
+>
+
+Q15. <stat- It is used to display file or file system status - $ stat filename>
+<stat 1.c>
+< File: â1.câ
+  Size: 768             Blocks: 8          IO Block: 4096   regular file
+Device: fd02h/64770d    Inode: 4846147227  Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 3098/ be22115)   Gid: ( 2924/  ugyr22)
+Context: unconfined_u:object_r:user_home_t:s0
+Access: 2024-07-31 13:19:44.870679016 +0530
+Modify: 2023-05-17 16:19:39.501002469 +0530
+Change: 2023-05-17 16:19:39.501002469 +0530
+ Birth: -
+>
+
+Q16. <stty – Change and print terminal line settings. Its option – “stty –a” prints all current
+settings in human readable form>
+< stty -a>
+< speed 38400 baud; rows 39; columns 157; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+werase = ^W; lnext = ^V; flush = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany -imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke
+>
+
+Q17. <tty – It prints the filename of the terminal connected to standard input.>
+<tty>
+</dev/pts/2>
+
+Q18. <uname –It prints system information>
+< umane>
+<Linux>
+
+Q19. <umask – It specifies user file creation mask, implying which of the 3 permissions are to
+be denied to the owner,group and others.>
+<umask>
+<0022>
+
+Q20. <find – It searches for files in a directory hierarchy>
+<find 1.c>
+< 1.c>
+
+Q21. <sort – It sorts the lines of text files>
+<sort 1.c>
+<  
+{
+{
+{
+{
+{
+{
+{
+{
+}
+}
+}
+}
+}
+}
+}
+}
+else if(arr[i]>largest 2 && arr[i]:=largest 1)
+for (i=0;i<n;i++)
+for(i=0;i<n;i++)
+for(i=0;i<n;i++)
+for(int i=2;i<n;i++)
+if(arr[i]>largest 1)
+if(largest 1< largest 2)
+#include<stdio.h>
+int
+int arr[n];
+int arr[n];
+int n=0,i=0,largest 2=0,temp=0;
+largest 1 = arr[0];
+largest 1= arr[i];
+largest 1= largest 2;
+largest 2 = arr[1];
+largest 2 = arr[i];
+largest 2= largest 1;
+largest 2= temp;
+printf("%d\i",arr[i]);
+printf("enter size of array \n");
+printf("enter the elements \n");
+printf("enter the elements\n");
+printf("\n");
+printf("the array elements are:\n");
+printf("the first largest = %d \n",largest 1);
+printf("the second largest = %d \n",largest 2);
+return 0;
+scanf("%d",&arr[i]);
+scanf("%d",&n);
+scanf("%d",&n);
+temp = largest 1;
+>
+
+Q22. <ps - It displays information about the current processes>
+<ps>
+<  PID TTY          TIME CMD
+ 5533 pts/2    00:00:00 bash
+ 8776 pts/2    00:00:00 ps
+>
+
+Q23. <chmod 777 file1 - gives full permission to owner, group and others>
+<chmod 777 1.c>
+<[be22115@localhost ~]$ chmod 777 1.c
+[be22115@localhost ~]$ ls -l
+total 236
+-rwxrwxrwx. 1 be22115 ugyr22   768 May 17  2023 1.c
+-rw-r--r--. 1 be22115 ugyr22   368 May 17  2023 2.c
+-rw-r--r--. 1 be22115 ugyr22   294 May 17  2023 3.c
+-rwxr-xr-x. 1 be22115 ugyr22 10224 Apr 15 15:33 a
+-rw-r--r--. 1 be22115 ugyr22   823 Apr 15 15:32 a.c
+-rwxr-xr-x. 1 be22115 ugyr22  8520 Jul 31 13:11 a.out
+-rw-r--r--. 1 be22115 ugyr22   326 Mar 29  2023 assignment1.c
+-rw-r--r--. 1 be22115 ugyr22   136 Apr 26  2023 assignment2,1.c
+-rw-r--r--. 1 be22115 ugyr22   349 Apr 26  2023 assignment2,2.c
+-rw-r--r--. 1 be22115 ugyr22   187 Apr 26  2023 assignment2,3.c
+-rw-r--r--. 1 be22115 ugyr22   206 Apr 26  2023 assignment2,4.c
+-rw-r--r--. 1 be22115 ugyr22   233 May  3  2023 assignment2,5.c
+-rw-r--r--. 1 be22115 ugyr22   199 May  3  2023 assignment2,6.c
+-rw-r--r--. 1 be22115 ugyr22   174 May  3  2023 assignment2,7.c
+-rw-r--r--. 1 be22115 ugyr22  1098 May  3  2023 assignment2,8.c
+-rw-r--r--. 1 be22115 ugyr22   172 Apr 26  2023 assignment2.c
+-rw-r--r--. 1 be22115 ugyr22   300 May  3  2023 assignment3,1.c
+-rw-r--r--. 1 be22115 ugyr22   469 May  3  2023 assignment3,2.c
+-rw-r--r--. 1 be22115 ugyr22   376 May 10  2023 assignment3,3.c
+-rw-r--r--. 1 be22115 ugyr22   292 May 10  2023 assignment3,4.c
+-rw-r--r--. 1 be22115 ugyr22   402 May 10  2023 assignment3,6.c
+-rw-r--r--. 1 be22115 ugyr22   234 Mar 29  2023 assignment3.c
+-rw-r--r--. 1 be22115 ugyr22   211 May 10  2023 assignment4,1.c
+-rw-r--r--. 1 be22115 ugyr22   178 May 10  2023 assignment4,3.c
+-rw-r--r--. 1 be22115 ugyr22   701 May 24  2023 assignment4,4.c
+-rw-r--r--. 1 be22115 ugyr22   253 Mar 29  2023 assignment4.c
+-rw-r--r--. 1 be22115 ugyr22   235 May 31  2023 assignment5,10.c
+-rw-r--r--. 1 be22115 ugyr22   199 May 24  2023 assignment5,1.c
+-rw-r--r--. 1 be22115 ugyr22  2780 May 24  2023 assignment5,2.c
+-rw-r--r--. 1 be22115 ugyr22   413 May 24  2023 assignment5,3.c
+-rw-r--r--. 1 be22115 ugyr22   184 May 31  2023 assignment5,4.c
+-rw-r--r--. 1 be22115 ugyr22   254 May 31  2023 assignment5,5.c
+-rw-r--r--. 1 be22115 ugyr22   330 May 31  2023 assignment5,7.c
+-rw-r--r--. 1 be22115 ugyr22   208 Apr 12  2023 assignment5.c
+-rw-r--r--. 1 be22115 ugyr22   315 Apr 12  2023 assignment6.c
+-rw-r--r--. 1 be22115 ugyr22     1 Mar 29  2023 assignment.c
+-rw-r--r--. 1 be22115 ugyr22   184 Jan 15  2024 b.c
+drwxr-xr-x. 4 be22115 ugyr22    56 Mar 20 13:19 cnlab
+drwxr-xr-x. 2 be22115 ugyr22    10 Jul 31 13:17 cpnm
+-rwxr-xr-x. 1 be22115 ugyr22  9664 Apr 15 16:13 d
+-rw-r--r--. 1 be22115 ugyr22   346 Apr 15 16:13 d.c
+drwxr-xr-x. 6 be22115 ugyr22   116 Jul 31 13:19 dsa
+-rwxr-xr-x. 1 be22115 ugyr22 10144 Apr 15 16:56 e
+-rw-r--r--. 1 be22115 ugyr22  1207 Apr 15 16:56 e.c
+-rwxr-xr-x. 1 be22115 ugyr22 10768 Feb  8 16:34 f
+-rw-r--r--. 1 be22115 ugyr22  2132 Feb  8 16:33 f.c
+-rw-r--r--. 1 be22115 ugyr22    81 Jan 15  2024 f.h
+-rw-r--r--. 1 be22115 ugyr22  1095 Apr 26 17:21 labq2.class
+-rw-r--r--. 1 be22115 ugyr22  1020 Apr 26 17:21 labq2.java
+drwxr-xr-x. 2 be22115 ugyr22  4096 Nov 22  2023 oops
+drwxr-xr-x. 6 be22115 ugyr22   167 Apr 26 15:45 OOSLAB
+drwxr-xr-x. 3 be22115 ugyr22    33 Jul 31 12:20 OSLAB
+-rw-r--r--. 1 be22115 ugyr22   825 Apr 26 17:21 Pattern.class
+-rw-r--r--. 1 be22115 ugyr22     1 Jul 27  2023 question1.c
+drwxr-xr-x. 6 be22115 ugyr22   122 Mar 18 17:13 SELAB
+drwxr-xr-x. 3 be22115 ugyr22    98 Mar  3  2023 skel
+-rw-r--r--. 1 be22115 ugyr22     0 Jul 26  2023 sum
+>
+
+Q24. <chmod o-w file1 - Removes write permission for others.>
+< chmod o-w 1.c>
+<[be22115@localhost ~]$ ls -l
+total 236
+-rwxrwxr-x. 1 be22115 ugyr22   768 May 17  2023 1.c
+-rw-r--r--. 1 be22115 ugyr22   368 May 17  2023 2.c
+-rw-r--r--. 1 be22115 ugyr22   294 May 17  2023 3.c
+-rwxr-xr-x. 1 be22115 ugyr22 10224 Apr 15 15:33 a
+-rw-r--r--. 1 be22115 ugyr22   823 Apr 15 15:32 a.c
+-rwxr-xr-x. 1 be22115 ugyr22  8520 Jul 31 13:11 a.out
+-rw-r--r--. 1 be22115 ugyr22   326 Mar 29  2023 assignment1.c
+-rw-r--r--. 1 be22115 ugyr22   136 Apr 26  2023 assignment2,1.c
+-rw-r--r--. 1 be22115 ugyr22   349 Apr 26  2023 assignment2,2.c
+-rw-r--r--. 1 be22115 ugyr22   187 Apr 26  2023 assignment2,3.c
+-rw-r--r--. 1 be22115 ugyr22   206 Apr 26  2023 assignment2,4.c
+-rw-r--r--. 1 be22115 ugyr22   233 May  3  2023 assignment2,5.c
+-rw-r--r--. 1 be22115 ugyr22   199 May  3  2023 assignment2,6.c
+-rw-r--r--. 1 be22115 ugyr22   174 May  3  2023 assignment2,7.c
+-rw-r--r--. 1 be22115 ugyr22  1098 May  3  2023 assignment2,8.c
+-rw-r--r--. 1 be22115 ugyr22   172 Apr 26  2023 assignment2.c
+-rw-r--r--. 1 be22115 ugyr22   300 May  3  2023 assignment3,1.c
+-rw-r--r--. 1 be22115 ugyr22   469 May  3  2023 assignment3,2.c
+-rw-r--r--. 1 be22115 ugyr22   376 May 10  2023 assignment3,3.c
+-rw-r--r--. 1 be22115 ugyr22   292 May 10  2023 assignment3,4.c
+-rw-r--r--. 1 be22115 ugyr22   402 May 10  2023 assignment3,6.c
+-rw-r--r--. 1 be22115 ugyr22   234 Mar 29  2023 assignment3.c
+-rw-r--r--. 1 be22115 ugyr22   211 May 10  2023 assignment4,1.c
+-rw-r--r--. 1 be22115 ugyr22   178 May 10  2023 assignment4,3.c
+-rw-r--r--. 1 be22115 ugyr22   701 May 24  2023 assignment4,4.c
+-rw-r--r--. 1 be22115 ugyr22   253 Mar 29  2023 assignment4.c
+-rw-r--r--. 1 be22115 ugyr22   235 May 31  2023 assignment5,10.c
+-rw-r--r--. 1 be22115 ugyr22   199 May 24  2023 assignment5,1.c
+-rw-r--r--. 1 be22115 ugyr22  2780 May 24  2023 assignment5,2.c
+-rw-r--r--. 1 be22115 ugyr22   413 May 24  2023 assignment5,3.c
+-rw-r--r--. 1 be22115 ugyr22   184 May 31  2023 assignment5,4.c
+-rw-r--r--. 1 be22115 ugyr22   254 May 31  2023 assignment5,5.c
+-rw-r--r--. 1 be22115 ugyr22   330 May 31  2023 assignment5,7.c
+-rw-r--r--. 1 be22115 ugyr22   208 Apr 12  2023 assignment5.c
+-rw-r--r--. 1 be22115 ugyr22   315 Apr 12  2023 assignment6.c
+-rw-r--r--. 1 be22115 ugyr22     1 Mar 29  2023 assignment.c
+-rw-r--r--. 1 be22115 ugyr22   184 Jan 15  2024 b.c
+drwxr-xr-x. 4 be22115 ugyr22    56 Mar 20 13:19 cnlab
+drwxr-xr-x. 2 be22115 ugyr22    10 Jul 31 13:17 cpnm
+-rwxr-xr-x. 1 be22115 ugyr22  9664 Apr 15 16:13 d
+-rw-r--r--. 1 be22115 ugyr22   346 Apr 15 16:13 d.c
+drwxr-xr-x. 6 be22115 ugyr22   116 Jul 31 13:19 dsa
+-rwxr-xr-x. 1 be22115 ugyr22 10144 Apr 15 16:56 e
+-rw-r--r--. 1 be22115 ugyr22  1207 Apr 15 16:56 e.c
+-rwxr-xr-x. 1 be22115 ugyr22 10768 Feb  8 16:34 f
+-rw-r--r--. 1 be22115 ugyr22  2132 Feb  8 16:33 f.c
+-rw-r--r--. 1 be22115 ugyr22    81 Jan 15  2024 f.h
+-rw-r--r--. 1 be22115 ugyr22  1095 Apr 26 17:21 labq2.class
+-rw-r--r--. 1 be22115 ugyr22  1020 Apr 26 17:21 labq2.java
+drwxr-xr-x. 2 be22115 ugyr22  4096 Nov 22  2023 oops
+drwxr-xr-x. 6 be22115 ugyr22   167 Apr 26 15:45 OOSLAB
+drwxr-xr-x. 3 be22115 ugyr22    33 Jul 31 12:20 OSLAB
+-rw-r--r--. 1 be22115 ugyr22   825 Apr 26 17:21 Pattern.class
+-rw-r--r--. 1 be22115 ugyr22     1 Jul 27  2023 question1.c
+drwxr-xr-x. 6 be22115 ugyr22   122 Mar 18 17:13 SELAB
+drwxr-xr-x. 3 be22115 ugyr22    98 Mar  3  2023 skel
+-rw-r--r--. 1 be22115 ugyr22     0 Jul 26  2023 sum
+>
+
+

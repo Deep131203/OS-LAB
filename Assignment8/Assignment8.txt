@@ -1,0 +1,65 @@
+1) Create a directory 'All My Cprog Files' in your home directory.
+
+#!/bin/bash
+mkdir "$HOME/All My Cprog Files"
+
+2)Move all the C files to the newly created directory.
+
+#!/bin/bash
+mv *.c "$HOME/All My Cprog Files"
+
+3)Show the list of files in your current directory.
+
+#!/bin/bash
+ls
+
+4)Show the current working directory.
+
+#!/bin/bash
+pwd
+
+5)Display date in the dd:mm:yy format.
+
+#!/bin/bash
+date +"%d:%m:%y"
+
+6)Count the number of files in your home directory.
+
+#!/bin/bash
+find "$HOME" -type f | wc -l
+
+7)Create a file that lists all of the .C files in your directory.
+
+#!/bin/bash
+ls *.C > C_files_list.txt
+
+8)Write a script for the addition of two numbers, supporting real numbers as well.
+
+#!/bin/bash
+echo "Enter two numbers: "
+read num1
+read num2
+sum=$(echo "$num1 + $num2" | bc)
+echo "The sum is: $sum"
+
+9)Write a script to convert lowercase to uppercase and uppercase to lowercase from a file.
+
+#!/bin/bash
+echo "Enter the filename: "
+read filename
+tr 'a-zA-Z' 'A-Za-z' < "$filename" > converted_"$filename"
+echo "Conversion completed. Output saved to converted_$filename"
+
+
+10) Read n and generate a pattern as given.
+
+#!/bin/bash
+echo "Enter the value of n: "
+read n
+for ((i=1; i<=n; i++))
+do
+  for ((j=1; j<=i; j++))
+  do    echo -n "$j "
+  done
+  echo
+done
